@@ -1,0 +1,42 @@
+2		# space dimension
+#################################
+4.000000		# xmin
+24.000000		# xmax
+101		# number of nodes
+#################################
+-3.000000		# zmin
+3.000000		# zmax
+121		# number of nodes
+#################################
+%
+%
+%%% Parameters <a> and <alpha> (IN DEGREES)
+%
+0.000000	0.000000
+%
+%%% Parameters <b> and <beta> (IN DEGREES)
+%
+10.000000	0.000000
+%
+%%% Parameters <f> and <k>
+%
+0.000000	1.000000
+%
+%%% Parameters <rho_b> and <p_b> #extra background mass density and pressure
+%
+0.100000	0.000000
+%
+%%% Parameter <gdfd> #guide field (By = constant)
+%
+0.000000
+%
+%%% Parameter <Ti>   #  0 <= Ti <=0.5 
+%
+0.250000		# For zero Vb set Ti = Me/2/(Me+Mp) = 2.721602872444568e-04
+%
+%%% Parameter <Vi>   #  in Va units 
+%
+0.100000		
+%
+%
+%%% NB: <a> has opposite sign as compared to Eq. 18-19 of Yoon & Lui (2005)

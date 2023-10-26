@@ -1,0 +1,18 @@
+### model name: {yoonsem, kasko}
+#
+kasko
+#
+### number of output quantities QNT = {"Psi","Rho","Pg", "Bx","By","Bz", "Vx","Vy","Vz"}
+#
+2
+#
+### units: { norm, si, cgs }
+#
+norm
+#
+### scaling factors
+#
+3.185500e+00		# L    , length, 10^3 km
+6.951295e+00		# B0   , magnetic field, nT
+1.000000e-01		# N0   , number density, cm^(-3)
+########################################################################################

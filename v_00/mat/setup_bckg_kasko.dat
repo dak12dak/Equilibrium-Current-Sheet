@@ -1,0 +1,42 @@
+%%% setup background configuration of Kan-Semenov-Korovinskiy type [Ann. Geophys.,36, 641-653, 2018]
+%%% -----------------------  parameter sets  ---------------------------------------%
+%                                        f  = 0,  n = 1,  k  =     0 -- Harris      %
+% a1 = 0, a2  = 0,  b0  = 0,  phi  = 0,  f  = 0,  n = 1,  k  = 0 | 1 -- Harris      %
+% a1 = 0, a2  = 0,  b0  = 0,  phi  = 0,  f <> 0,  n = 1,  k  = 0 | 1 -- Fadeev      %
+% a1 = 0, a2  = 0,  b0 <> 0,  phi  = 0,  f  = 0,  n = 1,  k  =     1 -- Kan         %
+%         a2  = 0,  b0 <> 0,  phi  = 0,  f <> 0,  n = 1,  k  =     1 -- Manankova   %
+%         a2  = 0,  b0 <> 0,  phi  = 0,           n = 1,  k ~= 0 | 1 -- Yoon        %
+%         a2 ~= 0,  b0 <> 0,  phi ~= 0,           n = 1,      	     -- Semenov     %
+%                                                 n ~=1,             -- Korovinskiy %
+%%% --------------------------------------------------------------------------------%
+%
+%%% Parameters <a1> and <a2>     # shift in x and z directions
+%
+0.000000	0.000000
+%
+%%% Parameters <b0> and <phi>    # ( phi in DEGREES! )
+%
+10.000000	0.000000
+%
+%%% Parameters <f>, <k>, and <n>
+%
+0.000000	1.000000	1.000000
+%
+%%% Parameters <rho_b> and <p_b> #extra background mass density and pressure
+%
+0.100000	0.000000
+%
+%%% Parameter <gdfd>   #  guide field (By = constant)
+%
+0.000000
+%
+%%% Parameter <Ti>   #  0 <= Ti <= 1/2. Units: T0 = 2(Ti+Te).
+%
+0.250000		# For zero Vb set Ti = Me/2/(Me+Mp) = 2.721602872444568e-04
+%
+%%% Parameter <Vi>   #  in Va units 
+%
+0.100000		
+%
+%
+%%% NB: <a1> and <a2> have opposite signs as compared to Eq. 16 of Korovinskiy et al.(2018)

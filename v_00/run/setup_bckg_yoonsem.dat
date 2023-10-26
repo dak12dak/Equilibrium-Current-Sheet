@@ -1,0 +1,42 @@
+%%% setup background configuration of Yoon-Semenov type
+%%% -----------------------  parameter sets  --------------------------------
+%
+% a = 0, alpha  = 0,  b  = 0,  beta  = 0,  f  = 0,  k  = 0 | 1 -- Harris    %
+% a = 0, alpha  = 0,  b  = 0,  beta  = 0,  f <> 0,  k  = 0 | 1 -- Fadeev    %
+% a = 0, alpha  = 0,  b <> 0,  beta  = 0,  f  = 0,  k  =     1 -- Kan       %
+%        alpha  = 0,  b <> 0,  beta  = 0,  f <> 0,  k  =     1 -- Manankova %
+%        alpha  = 0,           beta  = 0,           k ~= 0 | 1 -- Yoon      %
+%        alpha ~= 0,           beta ~= 0,                      -- Semenov   %
+%%% -------------------------------------------------------------------------
+%
+%
+%%% Parameters <a> and <alpha> (IN DEGREES)
+%
+2.000000	90.000000
+%
+%%% Parameters <b> and <beta> (IN DEGREES)
+%
+10.000000	-30.000000
+%
+%%% Parameters <f> and <k>
+%
+0.100000	1.000000
+%
+%%% Parameters <rho_b> and <p_b> #extra background mass density and pressure
+%
+0.100000	0.000000
+%
+%%% Parameter <gdfd> #guide field (By = constant)
+%
+0.000000
+%
+%%% Parameter <Ti>   #  0 <= Ti <= 1/2. Units: T0 = 2(Ti+Te). 
+%
+0.250000		# For zero Vb set Ti = Me/2/(Me+Mp) = 2.721602872444568e-04
+%
+%%% Parameter <Vi>   #  in Va units 
+%
+0.100000		
+%
+%
+%%% NB: <a> has opposite sign as compared to Eq. 18-19 of Yoon & Lui (2005)
